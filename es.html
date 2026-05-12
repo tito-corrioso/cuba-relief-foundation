@@ -144,12 +144,13 @@
                         <p>+1 (XXX) XXX-XXXX<br>Mensajenos directamente</p>
                     </div>
                 </div>
-                <form class="contact-form" data-netlify="true" data-netlify-honeypot="bot-field">
+                <form name="contact_es" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" class="contact-form">
+                    <input type="hidden" name="form-name" value="contact">
                     <h3>Enviar Mensaje</h3>
-                    <input type="text" placeholder="Tu Nombre" required>
-                    <input type="email" placeholder="Tu Email" required>
-                    <input type="tel" placeholder="Tu Teléfono">
-                    <textarea placeholder="Tu Mensaje (monto de donación, preguntas, etc.)" rows="5" required></textarea>
+                    <input type="text" name="name" placeholder="Tu Nombre" required>
+                    <input type="email" name="email" placeholder="Tu Email" required>
+                    <input type="tel" name="phone" placeholder="Tu Teléfono">
+                    <textarea name="message" placeholder="Tu Mensaje (monto de donación, preguntas, etc.)" rows="5" required></textarea>
                     <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
                 </form>
             </div>
