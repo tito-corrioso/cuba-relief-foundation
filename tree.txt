@@ -1,0 +1,10 @@
+cuba-relief-foundation/
+├── index.html
+├── es.html
+├── styles.css
+├── script.js
+├── images/
+│   ├── placeholder-pastor.jpg (espacio para foto del pastor)
+│   ├── placeholder-cuba1.jpg (espacio para fotos de ayuda)
+│   └── placeholder-cuba2.jpg (espacio para más fotos)
+└── README.md
