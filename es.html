@@ -181,7 +181,59 @@
             </div>
         </div>
     </footer>
+<!-- WHATSAPP FLOTANTE - COPIAR EN AMBOS HTML -->
+<a href="https://wa.me/1234567890?text=%F0%9F%92%95%20Hola!%20Quiero%20donar%20a%20Cuba%20Relief%20Foundation.%20%0AMonto:%20" 
+   class="whatsapp-float" target="_blank" rel="noopener noreferrer">
+  <i class="fab fa-whatsapp"></i>
+  <span>WhatsApp<br>Donar Ahora</span>
+</a>
 
+<style>
+.whatsapp-float {
+    position: fixed;
+    width: 70px;
+    height: 70px;
+    bottom: 25px;
+    right: 25px;
+    background: linear-gradient(135deg, #25D366, #128C7E);
+    color: white !important;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 28px;
+    box-shadow: 0 8px 30px rgba(37, 211, 102, 0.4);
+    z-index: 10000;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    text-decoration: none;
+    border: none;
+}
+.whatsapp-float:hover {
+    transform: scale(1.15) translateY(-5px) !important;
+    box-shadow: 0 15px 40px rgba(37, 211, 102, 0.6);
+}
+.whatsapp-float span {
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 1.1;
+    transform: scale(0.9);
+}
+@media (max-width: 768px) {
+    .whatsapp-float { 
+        width: 65px; 
+        height: 65px; 
+        font-size: 24px; 
+        right: 20px;
+        bottom: 20px;
+    }
+    .whatsapp-float span { 
+        display: none; 
+    }
+}
+</style>
     <script src="script.js"></script>
 </body>
 </html>
