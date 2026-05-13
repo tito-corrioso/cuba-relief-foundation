@@ -640,9 +640,3 @@ section {
     transform: scale(1.05);
 }
 
-@media (max-width: 450px) {
-    .container, .contact-content, .contact-form { 
-        padding: 0 12px !important; max-width: 100vw !important; margin: 0 !important; 
-    }
-    .whatsapp-float, .contact-link { right: 12px !important; bottom: 12px !important; width: 100% !important; }
-}
