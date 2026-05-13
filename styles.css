@@ -467,3 +467,51 @@ section {
         grid-template-columns: 1fr;
     }
 }
+
+/* CONTACTOS MEJORADOS */
+.contact-link {
+    display: inline-block;
+    background: linear-gradient(135deg, #d32f2f, #b71c1c);
+    color: white !important;
+    padding: 0.8rem 1.5rem;
+    border-radius: 25px;
+    margin-top: 0.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s;
+    box-shadow: 0 4px 15px rgba(211, 47, 47, 0.3);
+}
+
+.contact-link:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(211, 47, 47, 0.5);
+    color: white !important;
+}
+
+.contact-item h4 {
+    color: #d32f2f !important;
+    margin-bottom: 0.5rem;
+}
+
+.contact-item p {
+    color: #555;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact-item p strong {
+    color: #333;
+    font-size: 1.3rem;
+}
+
+/* DONATION AMOUNTS */
+.donation-amounts label {
+    transition: all 0.3s;
+    border: 2px solid transparent;
+}
+
+.donation-amounts input:checked + label {
+    background: linear-gradient(135deg, #d32f2f, #b71c1c) !important;
+    color: white !important;
+    transform: scale(1.05);
+}
