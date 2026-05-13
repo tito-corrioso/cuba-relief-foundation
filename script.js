@@ -28,11 +28,11 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 // Form submission
-document.querySelector('.contact-form').addEventListener('submit', function(e) {
-    e.preventDefault();
-    alert('¡Gracias por tu mensaje! Nos pondremos en contacto contigo pronto. / Thank you for your message! We will contact you soon.');
-    this.reset();
-});
+//document.querySelector('.contact-form').addEventListener('submit', function(e) {
+    //e.preventDefault();
+    //alert('¡Gracias por tu mensaje! Nos pondremos en contacto contigo pronto. / Thank you for your message! We will contact you soon.');
+    //this.reset();
+//});
 
 // Navbar background on scroll
 window.addEventListener('scroll', () => {
