@@ -577,8 +577,12 @@ section {
     
     .container { padding: 0 15px;}
     .contact-info {
-    display: block !important;  /* Fuerza columna */
-    width: 100% !important;
+    /*display: block !important;*/  /* Fuerza columna */
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;  /* ← CENTRA */
+    text-align: center !important;
+        width: 100% !important;
 }
 
 .contact-item {
