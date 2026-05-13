@@ -577,10 +577,15 @@ section {
     
     .container { padding: 0 15px;}
     .contact-info {
-    display: flex !important;
-    flex-direction: column !important;
-    gap: 1rem !important;
-        }
+    display: block !important;  /* Fuerza columna */
+    width: 100% !important;
+}
+
+.contact-item {
+    width: 100% !important;
+    margin-bottom: 1rem !important;
+    float: none !important;  /* Limpia cualquier float */
+}
 }
 
 @media (max-width: 480px) {
@@ -596,10 +601,15 @@ section {
         gap: 0.75rem !important;
     }
     .contact-info {
-    display: flex !important;
-    flex-direction: column !important;
-    gap: 1rem !important;
-    }
+    display: block !important;  /* Fuerza columna */
+    width: 100% !important;
+}
+
+.contact-item {
+    width: 100% !important;
+    margin-bottom: 1rem !important;
+    float: none !important;  /* Limpia cualquier float */
+}
 }
 
 /* CONTACTOS MEJORADOS */
