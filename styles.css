@@ -582,6 +582,7 @@ section {
 }
 
 .contact-item {
+    display: block !important;
     width: 100% !important;
     margin-bottom: 1rem !important;
     float: none !important;  /* Limpia cualquier float */
@@ -606,6 +607,7 @@ section {
 }
 
 .contact-item {
+    display: block !important;
     width: 100% !important;
     margin-bottom: 1rem !important;
     float: none !important;  /* Limpia cualquier float */
